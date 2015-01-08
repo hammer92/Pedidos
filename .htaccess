@@ -1,0 +1,12 @@
+RewriteEngine on
+RewriteRule ^categoriaempresa/ 		app/CategoriaEmpresa/controller.php
+RewriteRule ^categoriaproducto/ 	app/CategoriaProducto/controller.php
+RewriteRule ^clientes/ 				app/Cliente/controller.php
+RewriteRule ^empresa/ 				app/Empresa/controller.php
+RewriteRule ^empresamensajeria/ 	app/EmpresaMensajeria/controller.php
+RewriteRule ^ingredientes/ 			app/Ingredientes/controller.php
+RewriteRule ^mensajeros/ 			app/Mensajeros/controller.php
+RewriteRule ^pedidos/ 				app/Pedidos/controller.php
+RewriteRule ^productos/ 			app/Productos/controller.php
+RewriteRule ^trazabilidad/ 			app/Trazabilidad/controller.php
+RewriteRule ^usuarios/ 				app/Usuarios/controller.php
